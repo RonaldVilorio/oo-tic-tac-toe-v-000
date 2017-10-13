@@ -125,11 +125,11 @@ class TicTacToe
       turn
        end
 
-      # if draw?
-      #   puts "Cat's Game!"
-      # else
-      #   puts "Congratulations #{winner}!"
-      # end
+      if draw?
+        puts "Cat's Game!"
+      else
+        puts "Congratulations #{winner}!"
+      end
   end
 
 end
