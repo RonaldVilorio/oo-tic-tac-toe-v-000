@@ -123,7 +123,7 @@ class TicTacToe
   def play
     until over?
       turn
-       end
+    end
 
       if draw?
         puts "Cat's Game!"
